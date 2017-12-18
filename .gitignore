@@ -1,0 +1,20 @@
+### Node ###
+
+# Logs
+logs
+*.log
+npm-debug.log*
+linters
+
+# Dependency directories
+node_modules
+
+### macOS ###
+
+*.DS_Store
+
+### Project ###
+
+dist
+test
+.tmp
