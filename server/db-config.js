@@ -5,7 +5,7 @@ const knex = require('knex')({
     host : '127.0.0.1',
     user : process.argv[2],
     password : process.argv[3],
-    database : 'template1'
+    database : process.argv[4]
   }
 })
 
