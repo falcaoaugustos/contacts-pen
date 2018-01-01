@@ -41,6 +41,7 @@ If everything from the [Getting Started](#getting-started) section goes well, yo
 |   |-- controllers/
 |   |-- models/
 |   |-- routes/
+|   |-- db-config.js
 |   |-- index.js
 |-- .gitignore
 |-- package.json
@@ -58,6 +59,7 @@ The standard contact informations witch the user want to save.
 GET contacts/{id}
 ```json
 {
+  "id": 3,
   "first_name": "Abel",
   "last_name": "Rose",
   "email": "rose@domain.com",
@@ -68,6 +70,7 @@ GET contacts/{id}
 
 | Key | Value Data Type |
 | --- | --------------- |
+| id | number |
 | first_name | string |
 | last_name | string |
 | email | string |
