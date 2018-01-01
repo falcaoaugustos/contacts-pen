@@ -45,7 +45,7 @@ function update(req, res, next) {
     .where({
       id: req.contactID
     })
-    .then(() => res.send(`Contact ${req.contactID} was updated successfully.`))
+    .then(() => res.send(`Contact at index: ${req.contactID} was updated successfully.`))
     .catch(err => console.log(err))
 }
 
@@ -55,7 +55,7 @@ function remove(req, res, next) {
   .where({
     id: req.contactID
   })
-  .then(() => res.send(`Contact ${req.contactID} was removed successfully.`))
+  .then(() => res.json(req.contact))
   .catch(err => console.log(err))
 }
 
