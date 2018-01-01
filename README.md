@@ -30,6 +30,7 @@ Install all dependencies:
 ```sh
 $ cd contacts-pen
 $ npm install
+$ node server/index.js <USER> <PASSWORD> <DATABASE>
 ```
 
 ### Structure
